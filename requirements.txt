@@ -1,0 +1,17 @@
+# Core
+pandas>=2.2,<2.3
+numpy>=1.26,<2.0
+scikit-learn>=1.4,<1.6
+matplotlib>=3.8,<3.9
+scipy>=1.11,<1.13
+
+# Notebook runtime
+jupyter>=1.0,<2.0  # or use: notebook>=7,<8 or jupyterlab>=4,<5
+
+# Explainability (only install on Python >= 3.10)
+shap>=0.45; python_version >= "3.10"
+
+# Optional (uncomment if you use them)
+# xgboost>=2.0,<2.1
+# lightgbm>=4.3,<4.4
+# imbalanced-learn>=0.12,<0.13
