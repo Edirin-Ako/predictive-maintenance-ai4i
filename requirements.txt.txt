@@ -1,0 +1,24 @@
+# Pinned set tested together (Python ≥ 3.10)
+
+# Core
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+matplotlib==3.8.4
+scipy==1.12.0
+
+# Notebook runtime (pick one; default is classic Notebook)
+notebook==7.2.2
+# jupyterlab==4.2.5
+
+# Kernel (prevents "no kernel" issues in fresh envs)
+ipykernel==6.29.5
+
+# Explainability (optional; wheels vary by Python version)
+shap==0.45.0 ; python_version >= "3.10"
+
+# Optional extras (uncomment if used)
+# xgboost==2.0.3
+# lightgbm==4.3.0
+# imbalanced-learn==0.12.0
+# tqdm==4.66.4
