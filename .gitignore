@@ -1,0 +1,33 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+.env
+.env.*
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R artifacts
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Data (keep folder, ignore contents)
+data/*
+!data/.gitkeep
+
+# Logs / temp
+*.log
+tmp/
+temp/
